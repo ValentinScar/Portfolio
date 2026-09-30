@@ -1,0 +1,134 @@
+
+header{
+    background-color:whitesmoke;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+nav a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: blue;
+}
+section{
+    margin: 90px;
+    padding: 30px;
+    border-radius: 60px;
+    background-color: whitesmoke;
+}
+article{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+article a{
+    display: inline-block;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+article a:hover{
+  background-color: gray;
+}
+#Habilidades ul{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+#Habilidades li{
+    background-color: gray;
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+}
+.oscuro  {
+    background-color: #222;
+    color: white;
+}
+.oscuro section {
+    background-color: #222;
+    color: white;
+}
+.oscuro article {
+    background-color: #222;
+    color: white;
+}
+.oscuro nav a{
+    background-color: #222;
+    color: white;
+}
+.oscuro header{
+    background-color: #222;
+    color: white;
+}
+#boton-tema {
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.Botones{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 9px;
+    
+}
+#Contacto p{
+    margin-bottom: 100px;
+}
+section h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.Contactos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+.contacto-item {
+   
+    width: 30%;
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 60px;
+}
+header p{
+    font-size: 20px;
+}
+.FotoPerfil{
+    width: 200px;
+    object-fit: cover;
+     border-radius: 50%;
+}
+#FormularioDeContacto form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#FormularioDeContacto input {
+    width: 300px;
+}
+
+#FormularioDeContacto textarea {
+    width: 300px;
+}
+#FormularioDeContacto {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
